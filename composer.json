@@ -16,7 +16,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Flobbos\\SimpleHelper\\": "src/SimpleHelper/"
+            "Flobbos\\LaravelSimpleHelper\\": "src/LaravelSimpleHelper/"
         },
         "classmap": [
         ]
