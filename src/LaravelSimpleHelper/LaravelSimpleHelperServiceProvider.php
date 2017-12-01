@@ -21,8 +21,8 @@ class LaravelSimpleHelperServiceProvider extends ServiceProvider{
         );
         
         //load custom helpers with config
-        if (count(config('simplehelper.helpers'))) {
-            foreach (config('simplehelper.helpers') as $customHelper) {
+        if (count(config('simplehelper.custom_helpers'))) {
+            foreach (config('simplehelper.custom_helpers') as $customHelper) {
                 $file = app_path() . '/' . $this->getHelpersDirectory() . '/' . $customHelper . '.php';
                 if(file_exists($file)) {
                     require_once($file);
