@@ -21,6 +21,13 @@
         "classmap": [
         ]
     },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Flobbos\\LaravelSimpleHelper\\LaravelSimpleHelperServiceProvider"
+            ]
+        }
+    },
 
     "minimum-stability": "dev"
 }
